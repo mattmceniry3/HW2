@@ -1,26 +1,28 @@
 body {background: black; font-family:"CG Omega";}
-h1 {text-align: center; font-weight: bold; font-style:italic; color:white}
-h2 {text-align: center; font-weight: bold; font-style:italic; color:white}
-h4 {text-align: center; font-weight: bold; font-style:italic; color:white}	
-p {text-align: center; color:Gold}
-ul {text-align: center; color:Gold; list-style-position: inside;}
-a {text-align: center; color:Gold; font-style: italic;}
+h1 {font-weight: bold; font-style:italic; color:white}
+h2 {font-weight: bold; font-style:italic; color:white}
+h4 {font-weight: bold; font-style:italic; color:white}	
+p {color:Gold}
+ul {color:Gold; list-style-position: inside;}
+a {color:Gold; font-style: italic;}
 	
 	img.displayed {
 		display: block;
 		margin-left: auto;
 	margin-right: auto}
 	
-.border {width:900px;
-       margin:0 auto 0 auto;
-       padding:5px;
-       border:1px solid gold;
-      }
 
-#resume {
-	width: 800px;
-	margin-right:auto;
-	margin-left:auto;
-	text-align: center;
-	text-justify: left;
+
+.resume1 {width: 900px;
+	margin: 0 auto 0 auto;
+	padding: 5px;
+	border:1px solid gold;
+	text-align: left;
 }
+
+.home {text-align: center;
+		width:900px;
+		margin: 0 auto 0 auto;
+		padding: 5px;
+		border: 1px solid gold;
+		}
